@@ -1,0 +1,74 @@
+[30.917167664] 2018-07-14 21:04:33,948 - INFO - launcher: Starting sanity checks
+[30.917167664] 2018-07-14 21:04:33,948 - INFO - launcher: Checking for Python 3.5+
+[30.917167664] 2018-07-14 21:04:33,948 - INFO - launcher: Checking console encoding
+[31.914234161] 2018-07-14 21:04:33,949 - INFO - launcher: Setting console encoding to UTF-8
+[31.914234161] 2018-07-14 21:04:33,949 - INFO - launcher: Ensuring we're in the right environment
+[32.912015915] 2018-07-14 21:04:33,950 - INFO - launcher: Adding local bins/ folder to path
+[33.909320831] 2018-07-14 21:04:33,951 - INFO - launcher: Required checks passed.
+[34.906864166] 2018-07-14 21:04:33,952 - INFO - launcher: Optional checks passed.
+[35.903215408] 2018-07-14 21:04:33,953 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8841531276702881] 2018-07-14 21:04:34,801 - WARNING - musicbot.config | In config.py::MainThread(18280), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.8851635456085205] 2018-07-14 21:04:34,802 - INFO - musicbot.config | In config.py::MainThread(18280), line 123 in run_checks: Using i18n: config/i18n/en.json
+[0.8871333599090576] 2018-07-14 21:04:34,804 - DEBUG - musicbot.json | In json.py::MainThread(18280), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.3104822635650635] 2018-07-14 21:04:35,228 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 227 in _setup_logging: Set logging level to INFO
+[1.3104822635650635] 2018-07-14 21:04:35,228 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 84 in __init__: Starting MusicBot 1.9.7
+[1.3114595413208008] 2018-07-14 21:04:35,229 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[1.4579133987426758] 2018-07-14 21:04:35,375 - DEBUG - musicbot.spotify | In spotify.py::MainThread(18280), line 70 in get_token: Created a new access token: {'token_type': 'Bearer', 'expires_at': 1531602275, 'expires_in': 3600, 'access_token': 'BQDb2Qiwmkn_-L7LrXsFi-ZrXSjiI7ZIQCw3vo1PyrweAqYJYXRrPSKfFAVrcVM3cBq_n8zRKwAJj0SeOyw', 'scope': ''}
+[1.4589021205902100] 2018-07-14 21:04:35,376 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[4.2165539264678955] 2018-07-14 21:04:38,134 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 1074 in on_ready: Connection established, ready to go.
+[4.2165539264678955] 2018-07-14 21:04:38,134 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 339 in _cache_app_info: Caching app info
+[4.3613150119781494] 2018-07-14 21:04:38,279 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 905 in _scheck_server_permissions: Checking server permissions
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 913 in _scheck_configs: Validating config
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.config | In config.py::MainThread(18280), line 212 in async_validate: Validating options...
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.config | In config.py::MainThread(18280), line 226 in async_validate: Acquired owner id via API
+[4.3643064498901367] 2018-07-14 21:04:38,282 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 916 in _scheck_configs: Validating permissions config
+[4.3653297424316406] 2018-07-14 21:04:38,283 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18280), line 64 in async_validate: Validating permissions...
+[4.3653297424316406] 2018-07-14 21:04:38,283 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18280), line 68 in async_validate: Fixing automatic owner group
+[4.3653297424316406] 2018-07-14 21:04:38,283 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1091 in on_ready: Connected: 467767083363467314/Sonubot#1812
+[4.3663015365600586] 2018-07-14 21:04:38,284 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1099 in on_ready: Owner:     101405806343254016/Ethan#2269
+
+[4.3663015365600586] 2018-07-14 21:04:38,284 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1102 in on_ready: Server List:
+[4.3672997951507568] 2018-07-14 21:04:38,285 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1105 in on_ready:  - twitch.tv/sonocs
+[4.3672997951507568] 2018-07-14 21:04:38,285 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1151 in on_ready: Not bound to any text channels
+[4.3682959079742432] 2018-07-14 21:04:38,286 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 1177 in on_ready: Not autojoining any voice channels
+[4.3682959079742432] 2018-07-14 21:04:38,286 - WARNING - musicbot.bot | In bot.py::MainThread(18280), line 1217 in on_ready: Your config file is missing some options. If you have recently updated, check the example_options.ini file to see if there are new options available to you. The options missing are: {'autosummon'}
+[12.3066263198852539] 2018-07-14 21:04:46,224 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2734 in on_message: 101405806343254016/Ethan#2269: -join
+[12.3076236248016357] 2018-07-14 21:04:46,225 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2019 in cmd_join: Joining twitch.tv/sonocs/Music
+[12.3076236248016357] 2018-07-14 21:04:46,225 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 452 in get_voice_client: Connection attempt 1 to Music
+[12.3076236248016357] 2018-07-14 21:04:46,225 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[12.3076236248016357] 2018-07-14 21:04:46,225 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[12.3086204528808594] 2018-07-14 21:04:46,226 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[12.4274942874908447] 2018-07-14 21:04:46,345 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 2938 in on_voice_state_update: Voice state update for 467767083363467314/Sonubot#1812 on twitch.tv/sonocs/Music -> [JOIN, CONNECT]
+[12.4274942874908447] 2018-07-14 21:04:46,345 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2949 in on_voice_state_update: 467767083363467314/Sonubot#1812 has joined twitch.tv/sonocs/Music
+[12.4274942874908447] 2018-07-14 21:04:46,345 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[12.5192928314208984] 2018-07-14 21:04:46,437 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[12.7280683517456055] 2018-07-14 21:04:46,645 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18280), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[12.7280683517456055] 2018-07-14 21:04:46,645 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 478 in get_voice_client: Connected in 0.4s
+[12.7280683517456055] 2018-07-14 21:04:46,645 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 479 in get_voice_client: Connected to twitch.tv/sonocs/Music
+[12.7300724983215332] 2018-07-14 21:04:46,647 - VOICEDEBUG - musicbot.player | In player.py::MainThread(18280), line 373 in websocket_check: Starting websocket check loop for twitch.tv/sonocs
+[29.4912574291229248] 2018-07-14 21:05:03,408 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2734 in on_message: 101405806343254016/Ethan#2269: -play Drake - Emotionless
+[30.0876803398132324] 2018-07-14 21:05:04,005 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 1517 in cmd_play: {'extractor': 'generic', 'url': 'ytsearch:Drake - Emotionless', 'webpage_url': 'Drake - Emotionless', '_type': 'url', 'webpage_url_basename': 'Drake - Emotionless', 'ie_key': None, 'extractor_key': 'Generic'}
+[33.5506160259246826] 2018-07-14 21:05:07,468 - DEBUG - musicbot.entry | In entry.py::MainThread(18280), line 54 in get_ready_future: Created future for None
+[33.5516421794891357] 2018-07-14 21:05:07,469 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
+[33.5575973987579346] 2018-07-14 21:05:07,475 - INFO - musicbot.entry | In entry.py::MainThread(18280), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=F3IKJpWOqBI
+[35.5471425056457520] 2018-07-14 21:05:09,464 - DEBUG - musicbot.entry | In entry.py::MainThread(18280), line 54 in get_ready_future: Created future for None
+[36.1839492321014404] 2018-07-14 21:05:10,101 - INFO - musicbot.entry | In entry.py::MainThread(18280), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=F3IKJpWOqBI
+[36.1859445571899414] 2018-07-14 21:05:10,103 - FFMPEG - musicbot.player | In player.py::MainThread(18280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-F3IKJpWOqBI-Drake_-_Emotionless_Official.m4a
+[36.4188299179077148] 2018-07-14 21:05:10,336 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
+[148.0751893520355225] 2018-07-14 21:07:01,992 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2734 in on_message: 101405806343254016/Ethan#2269: -play EDEN - sex
+[148.3431706428527832] 2018-07-14 21:07:02,260 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 1517 in cmd_play: {'extractor': 'generic', 'url': 'ytsearch:EDEN - sex', 'webpage_url': 'EDEN - sex', '_type': 'url', 'webpage_url_basename': 'EDEN - sex', 'ie_key': None, 'extractor_key': 'Generic'}
+[151.7691578865051270] 2018-07-14 21:07:05,686 - DEBUG - musicbot.entry | In entry.py::MainThread(18280), line 54 in get_ready_future: Created future for None
+[151.7711529731750488] 2018-07-14 21:07:05,688 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
+[151.7761516571044922] 2018-07-14 21:07:05,693 - INFO - musicbot.entry | In entry.py::MainThread(18280), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=a_PoCGDfxHs
+[152.8093345165252686] 2018-07-14 21:07:06,727 - INFO - musicbot.bot | In bot.py::MainThread(18280), line 2734 in on_message: 101405806343254016/Ethan#2269: -skip
+[152.8213028907775879] 2018-07-14 21:07:06,739 - DEBUG - musicbot.entry | In entry.py::MainThread(18280), line 54 in get_ready_future: Created future for None
+[152.8213028907775879] 2018-07-14 21:07:06,739 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
+[153.3857197761535645] 2018-07-14 21:07:07,303 - INFO - musicbot.entry | In entry.py::MainThread(18280), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=a_PoCGDfxHs
+[153.3877387046813965] 2018-07-14 21:07:07,305 - FFMPEG - musicbot.player | In player.py::MainThread(18280), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-a_PoCGDfxHs-Sex-_EDEN_Lyrics.webm
+[153.6019318103790283] 2018-07-14 21:07:07,519 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
+[372.4845006465911865] 2018-07-14 21:10:46,402 - DEBUG - musicbot.bot | In bot.py::MainThread(18280), line 825 in serialize_queue: Serializing queue for 462328039993245696
